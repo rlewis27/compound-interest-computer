@@ -1,0 +1,29 @@
+h1 {
+    grid-column: 1 / span 2;
+    position: relative;
+    top: -10px;
+    color: white;
+    text-align: center;
+    background-color: tomato;
+    text-shadow: 2px 2px black;
+    padding: 5px;
+    border: 2px solid black;
+    border-style: dashed;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  h1:hover {
+    transform: rotate(2880deg);
+  }
+  #calculator {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 200px 75px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  body {
+    color: azure;
+    font-family: cursive;
+    margin: 10px;
+  }
